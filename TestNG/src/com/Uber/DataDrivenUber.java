@@ -32,6 +32,8 @@ public class DataDrivenUber {
 	@BeforeMethod
 	public void setup() {
 		driver.manage().window().maximize();	
+		System.out.println("Setup is ready");
+		
 	}
 	@DataProvider
 	public Iterator<Object[]> getdata() {
